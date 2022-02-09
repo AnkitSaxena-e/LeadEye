@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "7689958555",
+    "firebase_url": "https://comledmem-default-rtdb.firebaseio.com",
+    "project_id": "comledmem",
+    "storage_bucket": "comledmem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7689958555:android:939ec234778e66900dc23e",
+        "android_client_info": {
+          "package_name": "com.example.commember"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7689958555-jdm33j1qualhgi2i1akq1jtgsl99u75m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.commember",
+            "certificate_hash": "9251c10dc2a7130743160c30cfcd737826068992"
+          }
+        },
+        {
+          "client_id": "7689958555-00ephmmac2pt09nbqij7jan708557vq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdO9mHRqEICliiLFz9pFICjuEJGbdpwPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7689958555-00ephmmac2pt09nbqij7jan708557vq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
