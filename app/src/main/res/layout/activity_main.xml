@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Main_Motion"
+    android:background="@drawable/main_back"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mo_Login"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/lojo_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/popopopo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-10dp"
+            android:text="Sign In"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/popopopo"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/ForgotP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Passward_Login"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="15sp"
+                android:text="Forgot Passward"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinnerCountriesL"
+                android:layout_width="85dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/lineline" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Number_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-11dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/spinnerCountriesL"
+                android:hint="Number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Passward_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Number_Login"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-25dp"
+                android:layout_marginRight="10dp"
+                android:autofillHints="Password"
+                android:hint="Password"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/Join_login"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ForgotP"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/main_back"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/Show"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/Number_Login"
+                android:layout_alignRight="@+id/Passward_Login"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_visibility_off" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="61dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:id="@+id/open_Join"
+            android:text="New ? Join Hare"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mo_Join"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/lojo_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/lolololo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-60dp"
+            android:text="Join Us"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/lolololo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp">
+
+            <Spinner
+                android:id="@+id/spinnerCountries"
+                android:layout_width="85dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/Name_Join"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-11.5dp"
+                android:background="@drawable/lineline"
+                android:textSize="15sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Name_Join"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Name"
+                android:textSize="15sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Number_Join"
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name_Join"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-21dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/lineline"
+                android:hint="Phone"
+                android:inputType="number"
+                android:textSize="15sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Passward_Join"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Number_Join"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-22dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/lineline"
+                android:hint="Passward"
+                android:padding="10dp"
+                android:textSize="15sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <ImageButton
+                android:id="@+id/Show_Join"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/Number_Join"
+                android:layout_alignRight="@+id/Passward_Join"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-9dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ic_visibility_off"
+                android:textSize="15sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/Passward_Conferm_Join"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Passward_Join"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-22dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/lineline"
+                android:hint="Conferm Passward"
+                android:padding="10dp"
+                android:textSize="15sp"
+                app:met_baseColor="@color/gray"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/Join_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Passward_Conferm_Join"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/main_back"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Join Now"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="normal|bold|italic" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="61dp"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:id="@+id/open_Login"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:text="Already A Member! Login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

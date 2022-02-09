@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_member"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        android:title="Members" />
+
+    <item
+        android:id="@+id/navigation_approvel"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        android:title="For Approvel" />
+
+</menu>

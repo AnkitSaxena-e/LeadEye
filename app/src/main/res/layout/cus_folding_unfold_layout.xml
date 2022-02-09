@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_v"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/fol_back_vac">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999/Mo."
+            android:textStyle="bold"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/body_cus_plan"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:id="@+id/body_cus_mon"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="5 Months"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fold_b_png"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <!-- content header image -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_15">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile"
+            android:id="@+id/body_cus_pic"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/body_cus_pic"
+            android:layout_marginStart="@dimen/dp_30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ankit Saxena"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/body_cus_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7987011935"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:id="@+id/body_cus_num"
+                android:layout_below="@id/body_cus_name"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@color/colorPrimary"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_15">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/gg"
+            android:src="@drawable/ic_baseline_home_work_24"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/gg"
+            android:layout_marginStart="@dimen/dp_30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ksrgnh;rjnuh;uertnr jtn j n nj uj  lkujbkbju ujnk;jn jn "
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/body_cus_address"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pin - 482001"
+                android:textSize="16dp"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:id="@+id/body_cus_pin"
+                android:layout_below="@id/body_cus_address"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="60dp"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:id="@+id/gg"-->
+        <!--            android:src="@drawable/ic_baseline_home_work_24"/>-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:id="@+id/b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/05/21"
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:id="@+id/body_cus_date"
+                android:layout_below="@id/b"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimary"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_weight="50"
+            android:layout_marginLeft="-4dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textSize="15dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:id="@+id/ab"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:05:21"
+                android:textSize="17dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:id="@+id/body_cus_time"
+                android:layout_below="@id/ab"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/edit_cus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@drawable/fol_back_vac"
+        android:gravity="center"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

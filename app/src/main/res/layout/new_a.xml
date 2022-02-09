@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:background="@drawable/border_v"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/title_c"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/spinnerCountriesL"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:autofillHints="Title"
+        android:hint="Title"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"/>
+
+    <EditText
+        android:id="@+id/topic_c"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Massage"
+        android:hint="Topic"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:ems="10"
+        android:padding="10dp"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"/>
+
+    <Button
+        android:id="@+id/send_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topic_c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:backgroundTint="@color/gold"
+        android:paddingLeft="@dimen/dp_30"
+        android:paddingRight="@dimen/dp_30"
+        android:text="Send"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+</RelativeLayout>

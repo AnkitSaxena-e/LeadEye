@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Join_CV">
+
+        <attr name="S_color" format="color"/>
+        <attr name="S_size" format="dimension"/>
+
+    </declare-styleable>
+</resources>

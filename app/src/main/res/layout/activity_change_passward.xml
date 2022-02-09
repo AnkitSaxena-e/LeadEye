@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_back"
+    android:layout_height="match_parent"
+    tools:context=".changePassward">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="105dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/l"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="@drawable/lojo_back"
+        android:id="@+id/PutOTP"
+        android:hint="Enter OTP"
+        android:layout_below="@id/l"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/confermOTPButton"
+        android:text="Conferm OTP"
+        android:textColor="@color/white"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:padding="10sp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/PutOTP"
+        android:textStyle="italic|bold"
+        android:background="@drawable/joinbutton"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/YNP"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="invisible"
+        android:hint="Your New Passward"
+        android:background="@drawable/lojo_back"
+        android:layout_alignTop="@+id/CP"
+        android:layout_marginTop="-60dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="@drawable/lojo_back"
+        android:id="@+id/CP"
+        android:visibility="invisible"
+        android:hint="Conferm Your Passward"
+        android:layout_alignTop="@+id/changePassward"
+        android:layout_marginTop="-90dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changePassward"
+        android:text="Change Passward"
+        android:textColor="@color/white"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:textSize="15sp"
+        android:padding="10sp"
+        android:layout_marginRight="5dp"
+        android:textStyle="italic|bold"
+        android:background="@drawable/joinbutton"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/confermOTPButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/pB"/>
+</RelativeLayout>

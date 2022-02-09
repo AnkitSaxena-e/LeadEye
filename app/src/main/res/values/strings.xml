@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">ComLed</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Home</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+
+
+    <string name="slide_1_title">Aap Ka Medical</string>
+    <string name="slide_1_desc">The easiest way to get your Needs at your Door Steps!</string>
+
+    <string name="slide_2_title">Lowest Price</string>
+    <string name="slide_2_desc">Get Your Needs at Lowest Possible Price!</string>
+
+    <string name="slide_3_title">Fast Delivery</string>
+    <string name="slide_3_desc">Get Your Needs As Soon As Possible!</string>
+
+    <string name="slide_4_title">Wider Community</string>
+    <string name="slide_4_desc">We Have A Massive Community At The City!</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
