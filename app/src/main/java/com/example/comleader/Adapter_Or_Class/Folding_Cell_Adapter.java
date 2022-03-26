@@ -61,7 +61,7 @@ public class Folding_Cell_Adapter extends ArrayAdapter<MemModel> {
     private JsonObjectRequest jsonObjectRequest;
 
     final private String FCM_API = "https://fcm.googleapis.com/fcm/send";
-    final private String serverKey = "key=" + "AAAAAcpbdJs:APA91bGVMmgXXLr8lRzc-m2veJWC9FgvGjbFWh6i23Liz4COr09jdHP3tpEsHxSSAMSVuk_AmM91CyeRrn8lUTrpTrlloHhZQCpmFT6Bs2N-kWCDwTJ4PzN80ybXRiidC_Q1UlQgIMqi";
+    final private String serverKey = "key=" + "Your Firebase Server Key";
 
     final private String contentType = "application/json";
     final String TAG = "NOTIFICATION TAG";
